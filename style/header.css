@@ -147,6 +147,7 @@
         width: 5em;
         white-space: nowrap;
         display: block;
+        overflow: hidden;
     }
     .main-header__nav:hover{
         margin-top: 100px;
