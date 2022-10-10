@@ -1,0 +1,5 @@
+.content{
+    margin-top: var(--headerHigh);
+    margin-left: var(--headerLeftMargin);
+    height: 140vh;
+}

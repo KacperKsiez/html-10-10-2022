@@ -6,6 +6,10 @@
 }
 :root{
     font-size: 16px;
+    --headerHigh:60px;
+
+    --headerLeftMargin:0;
+
     --paddingDlaTelefonow: 2em;   
 }
 body{
