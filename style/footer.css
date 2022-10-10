@@ -1,19 +1,18 @@
-.main-footer{
-    text-align: center;
-    background-color: #123;
-    color: snow;
-    margin-left: var(--headerLeftMargin);
-    font-size: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.main-footer {
+	text-align: center;
+	background-color: #123;
+	color: snow;
+	margin-left: var(--headerLeftMargin);
+	font-size: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
-.main-footer__txt{
-    text-align: center;
-    color:snow;
-    font-weight: 400;
-
+.main-footer__txt {
+	text-align: center;
+	color: snow;
+	font-weight: 400;
 }
-.telefon{
-    font-size: 20px;
-    font-weight: 300;
+.telefon {
+	font-size: 20px;
+	font-weight: 300;
 }

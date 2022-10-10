@@ -1,6 +1,5 @@
-.content{
-    margin-top: var(--headerHigh);
-    margin-left: var(--headerLeftMargin);
-
-    min-height: calc(100vh - var(--headerHigh));
+.content {
+	margin-top: var(--headerHigh);
+	margin-left: var(--headerLeftMargin);
+	min-height: calc(100vh - var(--headerHigh));
 }
