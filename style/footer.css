@@ -3,16 +3,24 @@
 	background-color: #123;
 	color: snow;
 	margin-left: var(--headerLeftMargin);
-	font-size: 15px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	font-size: 12px;
+	padding: 1em;
 }
 .main-footer__txt {
 	text-align: center;
 	color: snow;
 	font-weight: 400;
+	margin-bottom: 10px;
 }
-.telefon {
+.main-footer__icon {
 	font-size: 20px;
 	font-weight: 300;
+}
+@media (max-width: 720px) {
+	.main-footer {
+		font-size: 10px;
+	}
+	.main-footer__icon {
+		font-size: 16px;
+	}
 }
