@@ -22,4 +22,4 @@
 	} else {
 		preloader.remove();
 	}
-})(false);
+})(true);
