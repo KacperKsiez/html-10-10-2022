@@ -5,7 +5,7 @@
 	min-height: calc(100vh - var(--headerHigh));
 }
 main section {
-	min-height: 100vh;
+	min-height: 80vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -17,14 +17,14 @@ main section:nth-child(1) {
 }
 
 main section:nth-child(2) {
-	color: #1d212b;
+	color: snow;
 	background-color: snow;
 }
 main section:nth-child(3) {
 	color: #fff;
 }
 main section:nth-child(4) {
-	color: #1d212b;
+	color: snow;
 	background-color: snow;
 }
 
@@ -39,4 +39,10 @@ main section h1 {
 
 main section .content-container-card {
 	display: flex;
+}
+
+main section .content-container-text-card {
+	background: #053b75;
+	margin: 20px;
+	padding: 20px;
 }
