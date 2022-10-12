@@ -13,8 +13,3 @@ class UIController {
 
 let uictrl = new UIController();
 uictrl.mainHeaderMenuSwitch();
-
-let a = {
-	a: 'b',
-	b: '33',
-};

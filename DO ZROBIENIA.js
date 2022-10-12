@@ -4,4 +4,4 @@
 // NIE JEBAĆ Z TYM DŁUGO ;P
 // * POTEM DODAĆ TREŚĆ W ELEMENCIE MAIN
 
-// TRZEBA PRETTIER UŻYWAĆ żeby kod był OK
+// dzien dobry
