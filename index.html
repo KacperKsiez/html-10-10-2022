@@ -21,9 +21,9 @@
 		<script src="scripts/preloader.js" defer></script>
 	</head>
 	<body>
-		<div class="preloader">
+		<!-- <div class="preloader">
 			<div class="preloader__circle preloader__circle--rotate"></div>
-		</div>
+		</div> -->
 
 		<header class="main-header">
 			<h1 class="main-header__title">strona WWW</h1>
@@ -42,25 +42,25 @@
 		<nav class="main-header__nav main-header__nav--hidden">
 			<ul class="main-header__list">
 				<li class="main-header__item">
-					<a href="#" class="link main-header__link">
+					<a href="index.html" class="link main-header__link">
 						<i class="main-header__icon bi bi-house"></i>
 						<span class="main-header__text">home</span>
 					</a>
 				</li>
 				<li class="main-header__item">
-					<a href="#" class="link main-header__link">
+					<a href="html/products.html" class="link main-header__link">
 						<i class="main-header__icon bi bi-bag-check"></i>
 						<span class="main-header__text">produkty</span>
 					</a>
 				</li>
 				<li class="main-header__item">
-					<a href="#" class="link main-header__link">
+					<a href="html/about.html" class="link main-header__link">
 						<i class="main-header__icon bi bi-person"></i>
 						<span class="main-header__text">o nas</span>
 					</a>
 				</li>
 				<li class="main-header__item">
-					<a href="#" class="link main-header__link">
+					<a href="html/newsletter.html" class="link main-header__link">
 						<i class="main-header__icon bi bi-envelope-paper"></i>
 						<span class="main-header__text">newsletter</span></a
 					>
@@ -79,78 +79,70 @@
 				<h1 class="fullsite__text">Oto nasza piękna strona</h1>
 			</section>
 
-			<section>
-				<div class="content-container-card">
-					<div class="content-container-text-card">
-						<h3>Tytuł segmentu 1</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
-							cum amet optio vero magnam itaque dignissimos quibusdam.
-						</p>
-					</div>
-				</div>
-				<div class="content-container-card">
-					<div class="content-container-text-card">
-						<h3>Tytuł segmentu 2</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
-							cum amet optio vero magnam itaque dignissimos quibusdam.
-						</p>
-					</div>
-				</div>
-				<div class="content-container-card">
-					<div class="content-container-text-card">
-						<h3>Tytuł segmentu 3</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
-							cum amet optio vero magnam itaque dignissimos quibusdam.
-						</p>
-					</div>
+			<section class="content__authors">
+				<h1 class="content__header">Strona została przygotowana przez...</h1>
+				<div class="content__author-list">
+					<figure class="content__author">
+						<figcaption>
+							<h2 class="content__header content__header--small">Kacper Księżniakiewicz</h2>
+						</figcaption>
+						<img class="content__author-image" src="img/kacper.jpg" alt="Kacper" />
+					</figure>
+					<figure class="content__author">
+						<figcaption>
+							<h2 class="content__header content__header--small">Bartosz Kasprzycki</h2>
+						</figcaption>
+						<img class="content__author-image" src="img/bartus.jpg" alt="Bartek" />
+					</figure>
+					<figure class="content__author">
+						<figcaption>
+							<h2 class="content__header content__header--small">Fabian Okoniewski</h2>
+						</figcaption>
+						<img class="content__author-image" src="" alt="" />
+					</figure>
 				</div>
 			</section>
-			<section>
-				<div class="content-container-card">
-					<div class="content-container-text-card">
-						<h3>Tytuł segmentu 1</h3>
-						<p>
+			<section class="content__container">
+				<div>
+					<div class="content__container-card">
+						<h3 class="content__header">Tytuł segmentu 1</h3>
+						<p class="content__text">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
 							cum amet optio vero magnam itaque dignissimos quibusdam.
 						</p>
 					</div>
 				</div>
 				<div class="content-container-card">
-					<div class="content-container-text-card">
-						<h3>Tytuł segmentu 2</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
-							cum amet optio vero magnam itaque dignissimos quibusdam.
-						</p>
-					</div>
-				</div>
-			</section>
-			<section>
-				<div class="content-container-card">
-					<div class="content-container-text-card">
-						<h3>Tytuł segmentu 1</h3>
-						<p>
+					<div class="content__container-card">
+						<h3 class="content__header">Tytuł segmentu 2</h3>
+						<p class="content__text">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
 							cum amet optio vero magnam itaque dignissimos quibusdam.
 						</p>
 					</div>
 				</div>
 				<div class="content-container-card">
-					<div class="content-container-text-card">
-						<h3>Tytuł segmentu 2</h3>
-						<p>
+					<div class="content__container-card">
+						<h3 class="content__header">Tytuł segmentu 1</h3>
+						<p class="content__text">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
 							cum amet optio vero magnam itaque dignissimos quibusdam.
 						</p>
 					</div>
 				</div>
 				<div class="content-container-card">
-					<div class="content-container-text-card">
-						<h3>Tytuł segmentu 3</h3>
-						<p>
+					<div class="content__container-card">
+						<h3 class="content__header">Tytuł segmentu 2</h3>
+						<p class="content__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
+							cum amet optio vero magnam itaque dignissimos quibusdam.
+						</p>
+					</div>
+				</div>
+				<div class="content-container-card">
+					<div class="content__container-card">
+						<h3 class="content__header">Tytuł segmentu 3</h3>
+						<p class="content__text">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
 							cum amet optio vero magnam itaque dignissimos quibusdam.
 						</p>

@@ -40,12 +40,63 @@
 .fullsite__text {
 	font-size: 3em;
 	transition: 0.8s;
+	color: snow;
 }
 .fullsite__text--lighting {
-	text-shadow: 0px 0px 50px white;
+	text-shadow: 0px 0px 40px white;
+}
+p {
+	color: #222;
+}
+.content__authors {
+	padding: 2em 4em;
+	min-height: 500px;
+	width: 100%;
+	color: snow;
+}
+.content__header {
+	color: #222;
+	margin-bottom: 0.7em;
+}
+.content__author-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 3em;
 }
 
-main section:nth-child(1) {
+.content__header {
+	font-size: 2.1em;
+}
+.content__header--small {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+.content__container {
+	background-color: #f4f4f4;
+	padding: 2em 4em;
+}
+.content__text {
+	line-height: 150%;
+}
+.content__author-image {
+	width: min(300px, 100%);
+	border-radius: 50%;
+	height: auto;
+	margin-top: 1.5em;
+}
+.content__author {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+/* KASPRZYKA KOD */
+/* main section:nth-child(1) {
 	color: #fff;
 }
 
@@ -78,4 +129,4 @@ main section .content-container-text-card {
 	background: #053b75;
 	margin: 20px;
 	padding: 20px;
-}
+} */
