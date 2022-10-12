@@ -4,11 +4,12 @@
 	right: 0;
 	left: 0;
 	height: var(--headerHigh);
-	background-color: #123;
 	color: snow;
 	padding: 1em 2em;
 	display: flex;
 	justify-content: space-between;
+	background-color: #123;
+	z-index: 10;
 }
 .main-header__btns {
 	display: flex;
@@ -55,7 +56,7 @@
 }
 .main-header__navBtn::before,
 .main-header__navBtn::after {
-	content: "";
+	content: '';
 	height: 2px;
 	top: 0;
 	left: 0;

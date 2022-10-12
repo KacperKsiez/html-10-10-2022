@@ -1,15 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+/* TEN KTO NIE PISZE KLAS W CSSIE, TEGO ZARA WYJEBIE Z BUTÓW
+	 - LysyProgramista 2022
+*/
+
+/* HISTORIA COMMITOW: */
+
+/* 
+	@DaDocta
+	Dalej kod
+	@DaDocta
+	Naprawiłęm to co popsute
+	@DaDocta
+	Pls działaj
+	@DaDocta
+	Więcej editow
+	@DaDocta
+	ok
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 .content {
 	margin-top: var(--headerHigh);
 	margin-left: var(--headerLeftMargin);
 	min-height: calc(100vh - var(--headerHigh));
 }
-main section {
-	min-height: 80vh;
+.fullsite {
+	font-family: 'Roboto', sans-serif;
+	height: calc(100vh - var(--headerHigh));
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #002145;
+	background: #002145 url('//unsplash.it/900') no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.fullsite__text {
+	font-size: 3em;
+	transition: 0.8s;
+}
+.fullsite__text--lighting {
+	text-shadow: 0px 0px 50px white;
 }
 
 main section:nth-child(1) {

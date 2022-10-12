@@ -13,12 +13,18 @@
 		<link rel="stylesheet" href="style/header.css" />
 		<link rel="stylesheet" href="style/content.css" />
 		<link rel="stylesheet" href="style/footer.css" />
+		<link rel="stylesheet" href="style/preloader.css" />
 
 		<link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css" />
 
 		<script src="scripts/ui.js" defer></script>
+		<script src="scripts/preloader.js" defer></script>
 	</head>
 	<body>
+		<div class="preloader">
+			<div class="preloader__circle preloader__circle--rotate"></div>
+		</div>
+
 		<header class="main-header">
 			<h1 class="main-header__title">strona WWW</h1>
 
@@ -69,11 +75,10 @@
 		</nav>
 
 		<main class="content">
-			<section>
-				<div class="content-container">
-					<h1>Oto nasza piękna storna</h1>
-				</div>
+			<section class="fullsite">
+				<h1 class="fullsite__text">Oto nasza piękna strona</h1>
 			</section>
+
 			<section>
 				<div class="content-container-card">
 					<div class="content-container-text-card">

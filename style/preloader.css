@@ -1,0 +1,50 @@
+.preloader {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	background-color: #002145;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.preloader__circle {
+	width: 130px;
+	height: 130px;
+
+	border-radius: 50%;
+	border: 12px dotted #000e1d;
+}
+
+.preloader__circle--rotate {
+	animation-name: rotatePreloader;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+.preloader__circle--fadeOut {
+	animation-name: fadeOut;
+	animation-duration: 0.45s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+.preloader--transform {
+	transform: translateX(100%);
+	transition: 1s;
+}
+@keyframes rotatePreloader {
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes fadeOut {
+	80% {
+		opacity: 0;
+	}
+	to {
+		transform: scale(2) rotate(90deg);
+		opacity: 0;
+	}
+}
