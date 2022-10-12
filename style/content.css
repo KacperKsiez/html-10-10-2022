@@ -17,4 +17,12 @@ main section:nth-child(1) {
 
 main section:nth-child(2) {
 	color: #1d212b;
+	background-color: snow;
+}
+main section:nth-child(3) {
+	color: #fff;
+}
+main section:nth-child(4) {
+	color: #1d212b;
+	background-color: snow;
 }
