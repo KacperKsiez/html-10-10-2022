@@ -2,6 +2,19 @@
 	margin-top: var(--headerHigh);
 	margin-left: var(--headerLeftMargin);
 	min-height: calc(100vh - var(--headerHigh));
+}
+main section {
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	background-color: #002145;
+}
+
+main section:nth-child(1) {
+	color: #fff;
+}
+
+main section:nth-child(2) {
+	color: #1d212b;
 }
