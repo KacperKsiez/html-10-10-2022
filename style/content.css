@@ -64,6 +64,7 @@ p {
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 3em;
+	overflow: hidden;
 }
 
 .content__header {
@@ -86,6 +87,9 @@ p {
 	border-radius: 50%;
 	height: auto;
 	margin-top: 1.5em;
+	transform: translateX(125%);
+	opacity: 0;
+	transition: 0.8s cubic-bezier(0.46, -0.84, 0.59, 1.77);
 }
 .content__author {
 	text-align: center;
@@ -94,7 +98,19 @@ p {
 	flex-grow: 1;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 }
+.content__author-image--fadeIn {
+	transform: translateX(0);
+	opacity: 1;
+}
+.delay1 {
+	transition-delay: 0.4s;
+}
+.delay2 {
+	transition-delay: 0.8s;
+}
+
 /* KASPRZYKA KOD */
 /* main section:nth-child(1) {
 	color: #fff;
