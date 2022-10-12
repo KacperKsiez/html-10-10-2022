@@ -55,7 +55,7 @@
 }
 .main-header__navBtn::before,
 .main-header__navBtn::after {
-	content: "";
+	content: '';
 	height: 2px;
 	top: 0;
 	left: 0;
