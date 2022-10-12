@@ -1,5 +1,7 @@
 .content {
-	margin-top: var(--headerHigh);
-	margin-left: var(--headerLeftMargin);
-	min-height: calc(100vh - var(--headerHigh));
+  margin-top: var(--headerHigh);
+  margin-left: var(--headerLeftMargin);
+  min-height: calc(100vh - var(--headerHigh));
+  display: flex;
+  justify-content: center;
 }
