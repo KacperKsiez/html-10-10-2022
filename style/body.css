@@ -10,6 +10,7 @@
 	--headerLeftMargin: 0;
 	--paddingDlaTelefonow: 2em;
 	-webkit-tap-highlight-color: transparent;
+	scroll-behavior: smooth;
 }
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -21,4 +22,23 @@ body {
 .link {
 	color: #222;
 	text-decoration: none;
+}
+#home {
+	position: absolute;
+	top: 0;
+	height: 0;
+}
+#about,
+#products {
+	position: relative;
+	top: calc(var(--headerHigh) - var(--headerHigh) - var(--headerHigh));
+}
+
+.content__product {
+	display: flex;
+}
+.content__product-image {
+	width: min(100%, 450px);
+	height: auto;
+	border-radius: 50px;
 }

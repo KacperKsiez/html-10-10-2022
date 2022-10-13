@@ -54,6 +54,8 @@ p {
 	min-height: 500px;
 	width: 100%;
 	color: snow;
+	background-color: #fff !important;
+	margin-bottom: 4em;
 }
 .content__header {
 	color: #222;
@@ -121,6 +123,41 @@ p {
 	}
 }
 
+/* PRODUCTS */
+.content__product {
+	justify-content: space-around;
+	gap: 30px;
+	align-items: center;
+	margin-bottom: 5em;
+}
+.content__product-image {
+	width: min(100%, 350px);
+	height: 600px;
+	flex: 1;
+}
+.content__product-desc {
+	flex: 1;
+	text-align: justify;
+}
+
+.content__product:nth-child(2n) {
+	flex-direction: row-reverse;
+}
+
+.content__newsletter-email {
+	padding: 1.5em 3em;
+	font-size: 1.4em;
+	font-family: 'Open Sans', sans-serif;
+	border: 0;
+	outline: 0;
+	border-radius: 10px;
+}
+.content__newsletter {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+}
 /* KASPRZYKA KOD */
 /* main section:nth-child(1) {
 	color: #fff;

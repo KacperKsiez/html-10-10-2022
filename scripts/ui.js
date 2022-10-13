@@ -33,6 +33,9 @@ class UIController {
 			obs.observe(author);
 		});
 	}
+	productsIntersectionObserver() {
+		const obj = new IntersectionObserver();
+	}
 }
 
 let uictrl = new UIController();

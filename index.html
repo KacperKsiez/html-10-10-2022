@@ -21,6 +21,7 @@
 		<script src="scripts/preloader.js" defer></script>
 	</head>
 	<body>
+		<div class="scroll" id="home"></div>
 		<div class="preloader">
 			<div class="preloader__circle preloader__circle--rotate"></div>
 		</div>
@@ -42,23 +43,25 @@
 		<nav class="main-header__nav main-header__nav--hidden">
 			<ul class="main-header__list">
 				<li class="main-header__item">
-					<a href="index.html" class="link main-header__link">
+					<a href="#home" class="link main-header__link">
 						<i class="main-header__icon bi bi-house"></i>
 						<span class="main-header__text">home</span>
 					</a>
 				</li>
 				<li class="main-header__item">
-					<a href="html/products.html" class="link main-header__link">
-						<i class="main-header__icon bi bi-bag-check"></i>
-						<span class="main-header__text">produkty</span>
-					</a>
-				</li>
-				<li class="main-header__item">
-					<a href="html/about.html" class="link main-header__link">
+					<a href="#about" class="link main-header__link">
 						<i class="main-header__icon bi bi-person"></i>
 						<span class="main-header__text">o nas</span>
 					</a>
 				</li>
+
+				<li class="main-header__item">
+					<a href="#products" class="link main-header__link">
+						<i class="main-header__icon bi bi-bag-check"></i>
+						<span class="main-header__text">produkty</span>
+					</a>
+				</li>
+
 				<li class="main-header__item">
 					<a href="html/newsletter.html" class="link main-header__link">
 						<i class="main-header__icon bi bi-envelope-paper"></i>
@@ -78,6 +81,7 @@
 			<section class="fullsite">
 				<h1 class="fullsite__text">Oto nasza piękna strona</h1>
 			</section>
+			<div class="scroll" id="about"></div>
 
 			<section class="content__container content__authors">
 				<h1 class="content__header">Strona została przygotowana przez...</h1>
@@ -103,51 +107,35 @@
 				</div>
 			</section>
 			<section class="content__container">
-				<div>
-					<div class="content__container-card">
-						<h3 class="content__header">Tytuł segmentu 1</h3>
-						<p class="content__text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
-							cum amet optio vero magnam itaque dignissimos quibusdam.
-						</p>
-					</div>
+				<div id="products"></div>
+				<h1 class="content__header">Oferowane produkty</h1>
+				<br /><br />
+
+				<div class="content__product">
+					<img src="img/opony.jpg" alt="Opony" class="content__product-image" />
+					<p class="content__product-desc">
+						Opony do samochodu 600,00 zł Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt ab maiores rerum magnam, esse, aperiam dolor doloremque ullam ea
+						quisquam pariatur sunt nemo excepturi reiciendis inventore provident quod molestiae ipsa.
+					</p>
 				</div>
-				<div class="content-container-card">
-					<div class="content__container-card">
-						<h3 class="content__header">Tytuł segmentu 2</h3>
-						<p class="content__text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
-							cum amet optio vero magnam itaque dignissimos quibusdam.
-						</p>
-					</div>
+				<div class="content__product">
+					<img src="img/laptop.jpg" alt="macbook" class="content__product-image" />
+					<span class="content__product-desc">
+						MacBook Pro 5999 zł Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto necessitatibus reprehenderit modi vitae accusantium nobis delectus
+						exercitationem sint dignissimos praesentium numquam architecto explicabo minus quia, distinctio dolorem consequatur quasi.
+					</span>
 				</div>
-				<div class="content-container-card">
-					<div class="content__container-card">
-						<h3 class="content__header">Tytuł segmentu 1</h3>
-						<p class="content__text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
-							cum amet optio vero magnam itaque dignissimos quibusdam.
-						</p>
-					</div>
+				<div class="content__product">
+					<img src="img/papier.jpg" alt="papier toaletowy" class="content__product-image" />
+					<span class="content__product-desc"
+						>Papier toaletowy 2,49 zł/szt Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur incidunt perferendis fugit officiis repellat fuga. Nisi quos, quod
+						perspiciatis quas tempora dolores tenetur doloribus autem, aspernatur molestias quis repellat sed?</span
+					>
 				</div>
-				<div class="content-container-card">
-					<div class="content__container-card">
-						<h3 class="content__header">Tytuł segmentu 2</h3>
-						<p class="content__text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
-							cum amet optio vero magnam itaque dignissimos quibusdam.
-						</p>
-					</div>
-				</div>
-				<div class="content-container-card">
-					<div class="content__container-card">
-						<h3 class="content__header">Tytuł segmentu 3</h3>
-						<p class="content__text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat impedit asperiores doloremque illum possimus nulla ab et distinctio. Delectus animi possimus odit
-							cum amet optio vero magnam itaque dignissimos quibusdam.
-						</p>
-					</div>
-				</div>
+			</section>
+			<section class="content__container content__newsletter">
+				<h1 class="content__header">Zapisz się na newsletter</h1>
+				<input class="content__newsletter-email" type="email" placeholder="jankowalski@gmail.com" />
 			</section>
 		</main>
 		<footer class="main-footer">
