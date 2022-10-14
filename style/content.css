@@ -102,6 +102,10 @@ p {
 	align-items: center;
 	overflow: hidden;
 }
+.content__author--nojs {
+	transform: translateX(0) !important;
+	opacity: 1 !important;
+}
 .content__author-image--fadeIn {
 	transform: translateX(0);
 	opacity: 1;
@@ -125,38 +129,52 @@ p {
 
 /* PRODUCTS */
 .content__product {
-	justify-content: space-around;
-	gap: 30px;
+	display: flex;
 	align-items: center;
+	justify-content: space-around;
 	margin-bottom: 5em;
+	gap: 30px;
+	flex-wrap: wrap;
 }
+
 .content__product-image {
-	width: min(100%, 350px);
-	height: 600px;
-	flex: 1;
+	min-width: 300px;
 }
+
 .content__product-desc {
-	flex: 1;
-	text-align: justify;
+	flex-basis: min(45ch, 100%);
 }
 
 .content__product:nth-child(2n) {
 	flex-direction: row-reverse;
 }
 
-.content__newsletter-email {
+.content__newsletter-email,
+.content__newsletter-btn {
 	padding: 1.5em 3em;
 	font-size: 1.4em;
 	font-family: 'Open Sans', sans-serif;
-	border: 0;
+	border: 1px solid transparent;
+
 	outline: 0;
+	width: min(500px, 100%);
 	border-radius: 10px;
 }
 .content__newsletter {
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
-	align-content: center;
+	align-items: center;
+	gap: 2em;
+}
+.content__newsletter-btn {
+	cursor: pointer;
+}
+.content__newsletter-email:focus,
+.content__newsletter-btn:hover {
+	border: 1px solid #123;
+}
+.content__newsletter-email::placeholder {
+	text-overflow: ellipsis;
 }
 /* KASPRZYKA KOD */
 /* main section:nth-child(1) {

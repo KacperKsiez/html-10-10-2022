@@ -22,7 +22,7 @@
 	</head>
 	<body>
 		<div class="scroll" id="home"></div>
-		<div class="preloader">
+		<div style="display: none" class="preloader">
 			<div class="preloader__circle preloader__circle--rotate"></div>
 		</div>
 
@@ -63,7 +63,7 @@
 				</li>
 
 				<li class="main-header__item">
-					<a href="html/newsletter.html" class="link main-header__link">
+					<a href="#newsletter" class="link main-header__link">
 						<i class="main-header__icon bi bi-envelope-paper"></i>
 						<span class="main-header__text">newsletter</span></a
 					>
@@ -90,19 +90,19 @@
 						<figcaption>
 							<h2 class="content__header content__header--small">Kacper Księżniakiewicz</h2>
 						</figcaption>
-						<img class="content__author-image" src="img/kacper.jpg" alt="Kacper" />
+						<img class="content__author-image content__author--nojs" src="img/kacper.jpg" alt="Kacper" />
 					</figure>
 					<figure class="content__author">
 						<figcaption>
 							<h2 class="content__header content__header--small">Bartosz Kasprzycki</h2>
 						</figcaption>
-						<img class="content__author-image" src="img/bartus.jpg" alt="Bartek" />
+						<img class="content__author-image content__author--nojs" src="img/bartus.jpg" alt="Bartek" />
 					</figure>
 					<figure class="content__author">
 						<figcaption>
 							<h2 class="content__header content__header--small">Fabian Okoniewski</h2>
 						</figcaption>
-						<img class="content__author-image" src="img/bartus.jpg" alt="Bartek" />
+						<img class="content__author-image content__author--nojs" src="img/bartus.jpg" alt="Bartek" />
 					</figure>
 				</div>
 			</section>
@@ -133,9 +133,10 @@
 					>
 				</div>
 			</section>
-			<section class="content__container content__newsletter">
+			<section id="newsletter" class="content__container content__newsletter">
 				<h1 class="content__header">Zapisz się na newsletter</h1>
 				<input class="content__newsletter-email" type="email" placeholder="jankowalski@gmail.com" />
+				<input class="content__newsletter-btn" type="submit" value="Zapisz się" />
 			</section>
 		</main>
 		<footer class="main-footer">

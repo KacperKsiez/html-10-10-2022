@@ -1,5 +1,6 @@
 ((on) => {
 	const preloader = document.querySelector('.preloader');
+	preloader.style.display = 'flex';
 	const preloaderCircle = document.querySelector('.preloader__circle');
 	if (on) {
 		window.onload = () => {
@@ -22,4 +23,4 @@
 	} else {
 		preloader.remove();
 	}
-})(false);
+})(true);
